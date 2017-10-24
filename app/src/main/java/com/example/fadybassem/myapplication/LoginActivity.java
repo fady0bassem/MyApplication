@@ -98,6 +98,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int res = 1 + 2;
     }
 
+    private void subtract(){
+        int res = 10 - 5;
+    }
+
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
             return;
